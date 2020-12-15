@@ -61,6 +61,9 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
             child: ListView(
           children: [
+            SizedBox(
+              height: 30,
+            ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
